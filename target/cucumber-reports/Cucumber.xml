@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="104.912098">
+<testcase classname="Book mentor" name="Book mentor" time="40.21239">
+<system-out><![CDATA[Given I open site codersguru................................................passed
+When I click on register new user...........................................passed
+And I register private user with "@kordecki.pl" "Krzysztof" "Kordecki" "pass1!@#" "Wroclaw" "52-129" "Kielbasnicza" "28".passed
+Then User should be successfully registered.................................passed
+When I select "GIT".........................................................passed
+And I select mentor 3.......................................................passed
+And I select first date and hour possible with message "I need help!".......passed
+Then I'm redirected to PayU site............................................passed
+When I enter fake credit card details.......................................passed
+Then Payment is refused.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register user" name="Register private user" time="28.995587">
+<system-out><![CDATA[Given I open site codersguru................................................passed
+When I click on register new user...........................................passed
+And I register private user with "@kordecki.pl" "Krzysztof" "Kordecki" "pass1!@#" "Wroclaw" "52-129" "Kielbasnicza" "28".passed
+Then User should be successfully registered.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register user" name="Register company user" time="35.704121">
+<system-out><![CDATA[Given I open site codersguru................................................passed
+When I click on register new user...........................................passed
+And I click on button 'Firma'...............................................passed
+And I register company user with "@kordecki.pl" "Krzysztof" "Kordecki" "pass1!@#" "Wroclaw" "52-129" "Kielbasnicza" "28" "Kross" 'NIP'.passed
+Then User should be successfully registered.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,501 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8998094700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Book mentor",
+        "description": "",
+        "id": "book-mentor;book-mentor;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8853522700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2902848300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open site codersguru",
+            "match": {
+              "location": "registerUserSteps.iOpenSiteCodersguru()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1169723100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on register new user",
+            "match": {
+              "location": "registerUserSteps.iClickOnRegisterNewUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4166279700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I register private user with \"@kordecki.pl\" \"Krzysztof\" \"Kordecki\" \"pass1!@#\" \"Wroclaw\" \"52-129\" \"Kielbasnicza\" \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@kordecki.pl",
+                  "offset": 30
+                },
+                {
+                  "val": "Krzysztof",
+                  "offset": 45
+                },
+                {
+                  "val": "Kordecki",
+                  "offset": 57
+                },
+                {
+                  "val": "pass1!@#",
+                  "offset": 68
+                },
+                {
+                  "val": "Wroclaw",
+                  "offset": 79
+                },
+                {
+                  "val": "52-129",
+                  "offset": 89
+                },
+                {
+                  "val": "Kielbasnicza",
+                  "offset": 98
+                },
+                {
+                  "val": "28",
+                  "offset": 113
+                }
+              ],
+              "location": "registerUserSteps.iRegisterPrivateUserWith(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58104700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be successfully registered",
+            "match": {
+              "location": "registerUserSteps.userShouldBeSuccessfullyRegistered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1792632300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"GIT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GIT",
+                  "offset": 10
+                }
+              ],
+              "location": "BookMentorSteps.iSelect(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5321293000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select mentor 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "BookMentorSteps.iSelectMentor(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1433547400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select first date and hour possible with message \"I need help!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I need help!",
+                  "offset": 52
+                }
+              ],
+              "location": "BookMentorSteps.iSelectFirstDateAndHourPossibleWithMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1891881300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I\u0027m redirected to PayU site",
+            "match": {
+              "location": "BookMentorSteps.iMRedirectedToPayUSite()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3573156000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter fake credit card details",
+            "match": {
+              "location": "BookMentorSteps.iEnterFakeCreditCardDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51306700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Payment is refused",
+            "match": {
+              "location": "BookMentorSteps.paymentIsRefused()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book mentor",
+    "description": "",
+    "id": "book-mentor",
+    "keyword": "Feature",
+    "uri": "C:/Users/Prince/IdeaProjects/CodersGuruTests/src/test/java/codersguru/cucumber/BookMentor.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8691354200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Register private user",
+        "description": "",
+        "id": "register-user;register-private-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 13622460400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1764662900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open site codersguru",
+            "match": {
+              "location": "registerUserSteps.iOpenSiteCodersguru()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246627100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on register new user",
+            "match": {
+              "location": "registerUserSteps.iClickOnRegisterNewUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3608560800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I register private user with \"@kordecki.pl\" \"Krzysztof\" \"Kordecki\" \"pass1!@#\" \"Wroclaw\" \"52-129\" \"Kielbasnicza\" \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@kordecki.pl",
+                  "offset": 30
+                },
+                {
+                  "val": "Krzysztof",
+                  "offset": 45
+                },
+                {
+                  "val": "Kordecki",
+                  "offset": 57
+                },
+                {
+                  "val": "pass1!@#",
+                  "offset": 68
+                },
+                {
+                  "val": "Wroclaw",
+                  "offset": 79
+                },
+                {
+                  "val": "52-129",
+                  "offset": 89
+                },
+                {
+                  "val": "Kielbasnicza",
+                  "offset": 98
+                },
+                {
+                  "val": "28",
+                  "offset": 113
+                }
+              ],
+              "location": "registerUserSteps.iRegisterPrivateUserWith(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61921600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be successfully registered",
+            "match": {
+              "location": "registerUserSteps.userShouldBeSuccessfullyRegistered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8637587700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Register company user",
+        "description": "",
+        "id": "register-user;register-company-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3583482100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1801559100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I open site codersguru",
+            "match": {
+              "location": "registerUserSteps.iOpenSiteCodersguru()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1117534000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register new user",
+            "match": {
+              "location": "registerUserSteps.iClickOnRegisterNewUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314510800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on button \u0027Firma\u0027",
+            "match": {
+              "location": "registerUserSteps.iClickOnButtonFirma()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20183421700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I register company user with \"@kordecki.pl\" \"Krzysztof\" \"Kordecki\" \"pass1!@#\" \"Wroclaw\" \"52-129\" \"Kielbasnicza\" \"28\" \"Kross\" \u0027NIP\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@kordecki.pl",
+                  "offset": 30
+                },
+                {
+                  "val": "Krzysztof",
+                  "offset": 45
+                },
+                {
+                  "val": "Kordecki",
+                  "offset": 57
+                },
+                {
+                  "val": "pass1!@#",
+                  "offset": 68
+                },
+                {
+                  "val": "Wroclaw",
+                  "offset": 79
+                },
+                {
+                  "val": "52-129",
+                  "offset": 89
+                },
+                {
+                  "val": "Kielbasnicza",
+                  "offset": 98
+                },
+                {
+                  "val": "28",
+                  "offset": 113
+                },
+                {
+                  "val": "Kross",
+                  "offset": 118
+                }
+              ],
+              "location": "registerUserSteps.iRegisterCompanyUserWithNIP(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66025500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be successfully registered",
+            "match": {
+              "location": "registerUserSteps.userShouldBeSuccessfullyRegistered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register user",
+    "description": "",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "C:/Users/Prince/IdeaProjects/CodersGuruTests/src/test/java/codersguru/cucumber/RegisterUser.feature"
+  }
+]
